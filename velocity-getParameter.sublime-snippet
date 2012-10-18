@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-\$!{request.getParameter('${1:nome do parâmetro}')}
+\$!{request.getParameter('${1:parameter}')}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>param</tabTrigger>
