@@ -3,7 +3,21 @@
 	"scopeName"		:	"text.html.vm",
 	"fileTypes" 	:	["vm"],
 	"patterns": [
-
+		{
+			"match"		:	"^#!vm;[a-z0-9-]*",
+			"name"		:	"comment.line.double-pound.vm",
+			"comment"	:	"Velocity shebang"
+		},
+		{  
+			"name"		:	"comment.line.double-pound.vm",
+		   	"match"		:	"(##).*\\$?",
+		   	"comment"	:	"Single line comment"
+		},
+		{
+			"name"		:	"comment.line.double-pound.vm",
+			"match"		:	"(#\*\*#)?",
+			"comment"	:	"Single line comment"
+		},
 	]",
 	"uuid" 			:	"1f312dd3-1c68-4400-9539-01e3853171c8"
 }

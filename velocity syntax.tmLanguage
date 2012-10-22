@@ -34,6 +34,8 @@
 				</dict>
 			</array>
 		</dict>
+		
+		<!-- OK -->
 		<dict>
 			<key>comment</key>
 			<string>Velocity shebang</string>
@@ -42,6 +44,8 @@
 			<key>name</key>
 			<string>comment.line.double-pound.vm</string>
 		</dict>
+
+		<!-- OK -->
 		<dict>
 			<key>comment</key>
 			<string>Single line comment</string>
@@ -51,15 +55,17 @@
 			<key>name</key>
 			<string>comment.line.double-pound.vm</string>
 		</dict>
+
+		<!-- OK -->
 		<dict>
 			<key>comment</key>
 			<string>Single line comment</string>
 			<key>match</key>
-			<string>(#\*\*#)
-?</string>
+			<string>(#\*\*#)?</string>
 			<key>name</key>
 			<string>comment.line.double-pound.vm</string>
 		</dict>
+
 		<dict>
 			<key>begin</key>
 			<string>/\*</string>
