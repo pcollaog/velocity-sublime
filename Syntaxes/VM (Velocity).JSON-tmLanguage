@@ -1,0 +1,9 @@
+{
+	"name"			:	"VM (Velocity)",
+	"scopeName"		:	"text.html.vm",
+	"fileTypes" 	:	["vm"],
+	"patterns": [
+
+	]",
+	"uuid" 			:	"1f312dd3-1c68-4400-9539-01e3853171c8"
+}
