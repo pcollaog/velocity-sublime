@@ -66,6 +66,7 @@
 			<string>comment.line.double-pound.vm</string>
 		</dict>
 
+		<!-- OK -->
 		<dict>
 			<key>begin</key>
 			<string>/\*</string>
@@ -82,6 +83,9 @@
 			<key>name</key>
 			<string>comment.block.vm</string>
 		</dict>
+
+
+		
 		<dict>
 			<key>captures</key>
 			<dict>
@@ -127,6 +131,7 @@
 			<key>name</key>
 			<string>source.velocity.embedded</string>
 		</dict>
+		<!--AQUI VOY-->
 		<dict>
 			<key>begin</key>
 			<string>(?=#\*)</string>

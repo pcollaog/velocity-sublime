@@ -18,6 +18,39 @@
 			"match"		:	"(#\*\*#)?",
 			"comment"	:	"Single line comment"
 		},
+		{
+			"name"		:	"comment.block.vm",
+			"begin"		:	"/\*",
+			"beginCaptures": {
+			    "0": { "name": "punctuation.definition.comment.vm" }
+			}
+			"end"		:	"\*/"
+		},
+		{
+			"name"		:	"source.velocity.embedded",
+			"match"		:	"\\[\!\#\$\\]",
+			"captures": {
+		    	"0": { "name": "constant.character.escape.backslash.velocity" },
+		    { "include": "#directives" },
+		    { "include": "#function" },
+		    { "include": "#variable" },
+		    "beginCaptures": {
+		        "0": {
+		        	"name": "comment.line.double-number-sign"
+		        },
+		        "1": { 
+		        	"name": "punctuation.definition.comment.velocity"
+		        },
+		        {
+		        	"name": "source.velocity.embedded",
+					"match": "(\#\#).*$\n?"
+		        },
+		    }
+		}
+		},
+
+		
 	]",
+	
 	"uuid" 			:	"1f312dd3-1c68-4400-9539-01e3853171c8"
 }
